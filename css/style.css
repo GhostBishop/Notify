@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+    /*font-family: 'Pacifico', cursive;
+    font-family: 'Raleway', sans-serif;*/
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway';
+}
+
+.header {
+    border-top: 5px solid #2ecc71;
+    background-image: url("img/banner.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header h1 {
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    left: 220px;
+    top: 115px;
+    color: white;
+    font-size: 60px;
+}
+
+.header h1 span {
+    color: #2ecc71;
+}
+
+.header p {
+    color: white;
+    position: absolute;
+    left: 15%;
+    top: 35%;
+}
+
+.header a img {
+    position: relative;
+    top: 160px;
+    left: 215px;
+    margin-right: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.header a img:hover {
+    background: #2ecc71;
+}
+
+.services {
+    display: inline-block;
+    text-align: center;
+    margin: 50px 0 50px 120px;
+}
+
+.notify {
+    background-color: #e3e3e3;
+    height: 450px;
+}
+
+.updates {
+    width: 500px;
+    margin-left: 120px;
+    padding-top: 50px;
+}
+
+.email-notify {
+    text-decoration: none;
+    color: white;
+    background-color: #2ecc71;
+    padding: 15px 30px;
+    -webkit-border-radius: 0 15px 15px 0;
+    -moz-border-radius: 0 15px 15px 0;
+    border-radius: 0 15px 15px 0;
+    margin-left: 0px;
+    float: left;
+}
+
+.email {
+    float: left;
+    padding: 18px;
+    padding-right: 100px;
+    margin-right: 0px;
+    border-radius: 15px 0 0 15px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.video {
+    position: relative;
+    top: -150px;
+    left: 350px
+}
+
+.testimonial-section {
+    margin-top: 50px;
+}
+
+.testimonial {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.testimonial-image {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonial-section h2,
+.testimonial-section p {
+    text-align: center;
+}
+
+.social-links a img {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 600px;
+    margin: 10px 0 15px 0;
+}
+
+.social-links a img:hover {
+    background: #2ecc71;
+}
+
+footer {
+    background: #e3e3e3;
+    height: 150px;
+}
+
+.footer {
+    list-style: none;
+    display: inline-block;
+    padding-top: 75px;
+}
+
+.footer:first-child {
+    padding-left: 400px;
+}
+
+.footer a {
+    text-decoration: none;
+    margin: 10px 15px;
+    color: #848484;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #2ecc71;
+}
